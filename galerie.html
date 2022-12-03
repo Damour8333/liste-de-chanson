@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>les jougadous home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Les Jougadous</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                            href="">Acceuil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                            href="https://www.facebook.com/lesjougadous">Facebook</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Listedechansons.html">Répertoire</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="choral.html">Biographie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rendezvous.html">Agenda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galerie.html">Galerie de photos</a>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="gallery">
+        <img src="img/fetedelamorue.png" alt="5%" height="2%" width="2%">
+         <img src="img/flower.jpg" alt="5%" height="2%" width="2%">
+         <img src="img/hands.jpg" alt="5%" height="2%" width="2%">
+         <img src="img/jougadous.png" alt="5%" height="2%" width="2%">
+         <img src="img/jougadous1.png" alt="5%" height="2%" width="2%">
+         <img src="img/jougadous2.png" alt="5%" height="2%" width="2%">
+         <img src="img/jougadous3.png" alt="5%" height="2%" width="2%">
+         <img src="img/jougadous4.png" alt="5%" height="2%" width="">
+         <img src="img/jougadous5.png" alt="5%" height="2%" width="2%">
+         <img src="img/76.jpg" alt="5%" height="2%" width="2%">
+         <img src="img/accordeon.jpg" alt="5%" height="2%" width="2%">
+         <img src="img/bandana.jpg" alt="5%" height="2%" width="2%">
+         <img src="img/bébé.jpg" alt="5%" height="2%" width="2%">
+         <img src="img/canotier.jpg" alt="5%" height="2%" width="2%">
+         <img src="img/confinement.jpg" alt="">
+         <img src="img/confinement3.jpg" alt=""><img src="img/IMG_20211104_105332.jpg" alt="">
+         <img src="img/encore1.jpg" alt=""><img src="img/IMG_20211127_221434.jpg" alt="">
+         <img src="img/foule.jpg" alt=""><img src="img/IMG_20211127_221434.jpg" alt="">
+         <img src="img/foule2.jpg" alt="">
+         <img src="img/funfunfun.jpg" alt="5%" height="2%" width="2%">
+         <img src="img/guinguette.jpg" alt="5%" height="2%" width="2%">
+         <img src="img/guitare.jpg" alt="5%" height="2%" width="2%">
+         <img src="img" alt="5%" height="2%" width="2%">
+         <img src="img/foto5.jpg" alt="5%" height="2%" width="2%">
+         <img src="img/foto6.jpg" alt="5%" height="2%" width="2%">
+         <img src="img/foto7.jpg" alt="5%" height="2%" width="2%">
+         <img src="img/foto8.jpg" alt="5%" height="2%" width="">
+        
+         
+     </div>
+        
+ </body>
+ </html>
+ <style>
+     body{
+     
+     margin:0;
+     }
+     .gallery{
+         display:flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         align-content: flex-start;
+         
+     }
+ 
+     .gallery>img{
+         flex: 1 1 auto;
+         width: auto;
+         height: auto;
+         max-width: 300px;
+         max-height: 130px;
+         margin:5px;
+         object-fit:cover;
+ 
+ 
+     }
+     .gallery img{
+         height: 533px;
+         object-fit: cover;
+         transition: transform .2s;
+     }
+     .gallery:hover img{
+         filter: blur(1px) brightness(.8) grayscale(.7);
+         transform: scale(.8);
+     }
+     .gallery img:hover{
+         filter:blur(0);
+         transform: scale(1);
+     }
+ </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
