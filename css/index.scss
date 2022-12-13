@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+
+.section_1{
+    background-image: url(../img/fetedelamorue.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: start;
+    background-attachment: fixed;
+    
+   h1 {
+        color: rgb(244, 166, 11);
+        font-size: 3rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        text-shadow: 0 0 1rem #000;
+        animation: text 2s ease-in-out infinite;
+        position: relative;
+        top: 100px;
+        margin:12.5%;
+        font-family: 'Rubik 80s Fade', cursive;
+     @media (min-width: 500px){
+        font-size: 5rem;
+        top: 200px;
+        margin: 10%;
+     }
+     @media (min-width: 700px){
+        font-size: 6rem;
+        top: 200px;
+        margin: 10%;
+     }
+
+     }
+    }
+
+.section_2{
+    background-color: #abc0cff4;
+    flex-wrap: wrap;
+    h1{
+        
+        font-family: 'Merriweather', serif;
+        color:#fff;
+        font-size: 2rem;
+        margin-left: 12.5%;
+    }
+}
