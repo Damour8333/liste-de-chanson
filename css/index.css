@@ -85,7 +85,13 @@
 
 .section_3 {
   background-color: #B3C7D6;
-  margin-top: -5px;
+  margin-top: 20px;
+  padding: 20px;
+}
+@media (min-width: 500px) {
+  .section_3 {
+    margin: 0px;
+  }
 }
 .section_3 figure {
   display: flex;
@@ -95,9 +101,16 @@
   margin: 12.5%;
   margin-top: 5%;
 }
-.section_3 p {
-  padding: 25px;
-  margin-top: 15px;
-  margin-right: 22.5%;
-  text-align: justify;
+
+.transparent {
+  padding: 20px;
+  color: #fff;
+  font: 18px Arial, sans-serif;
+}
+.transparent h1 {
+  font-size: 2rem;
+  font-family: "Rubik Vinyl", cursive;
+  color: #fff;
+  margin-left: 12.5%;
+  text-shadow: #B3C7D6 10px 120px 100px;
 }/*# sourceMappingURL=index.css.map */

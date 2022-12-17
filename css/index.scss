@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 
-.section_1{
+.section_1 {
     background-image: url(../img/fetedelamorue.png);
     background-size: cover;
     background-position: center;
@@ -75,7 +75,15 @@
 
 .section_3{
     background-color: #B3C7D6;
-    margin-top:-5px;
+    margin-top:20px;
+    padding: 20px;
+    @media (min-width: 500px){
+      
+        margin: 0px;
+    } 
+      
+    
+
   figure{
     display: flex;
     flex-direction: column;
@@ -84,11 +92,20 @@
     margin:  12.5%;
     margin-top: 5%;
     }
-    p{
-      padding: 25px;
-      margin-top:15px;
-      margin-right: 22.5%;
-      text-align: justify;
-    }
    
+   
+}
+.transparent{
+  padding: 20px;
+ 
+  color: #fff;
+  font: 18px Arial, sans-serif;
+  h1{
+    font-size: 2rem;
+    font-family: 'Rubik Vinyl', cursive;
+    color:#fff;
+    margin-left: 12.5%;
+    text-shadow: #B3C7D6 10px 120px 100px;
+  }
+  
 }
