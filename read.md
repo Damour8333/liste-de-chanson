@@ -3,10 +3,10 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/Damour8333/BootstrapChorales.git
+git remote add origin 
 git push -u origin main
 
-https://github.com/Damour8333/BootstrapChorales.git
+
 
 
 animer les jougadous c'est le partage -----
