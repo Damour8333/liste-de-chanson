@@ -24,38 +24,33 @@ let track_list = [
   {
     name: "La foule",
     artist: "edith piaf",
-    image: "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+    image: "../../img//bébé.jpg",
     path: "./music/la_ foule .m4a"
   },
   {
     name: "CaZachock",
     artist: "rika Zarai",
-    image: "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./music/Casachock.m4a"
+    image: "../..//img/./fetedelamorue.png",
+    path: ".//music//Casachock.m4a"
   },
   {
-    name: "CaZachock",
-    artist: "rika Zarai",
-    image: "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./music/Casachock.m4a"
+    name: "Trois petites notes",
+    artist: "Yves Montand",
+    image: "../..//img/.//jougadous13.jpg",
+    path: ".///music///3 _PETITES_ notes.m4a"
   },
   {
-    name: "CaZachock",
-    artist: "rika Zarai",
-    image: "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./music/Casachock.m4a"
+    name: "Nini peau d'chien",
+    artist: "Aristide Bruant",
+    image: "../..//img/.//julie.jpg",
+    path: "./music/NINI _BRUANT.m4a"
   },
+  
   {
-    name: "CaZachock",
-    artist: "rika Zarai",
-    image: "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./music/Casachock.m4a"
-  },
-  {
-    name: "CaZachock",
-    artist: "rika Zarai",
-    image: "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./music/Casachock.m4a"
+    name: "les petits papiers",
+    artist: "Gainsbourg",
+    image: "../..///img/./cinéma.jpg",
+    path: ".//music//les _petits_ papiers.m4a"
   }
   
  

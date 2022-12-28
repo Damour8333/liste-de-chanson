@@ -22,6 +22,7 @@
   position: relative;
   top: 100px;
   margin: 12.5%;
+  padding: 1.5rem;
   font-family: "Rubik 80s Fade", cursive;
 }
 .section_1 h1 p {
@@ -73,10 +74,147 @@
 }
 
 .section_2 {
-  background-color: rgba(171, 192, 207, 0.9568627451);
+  background-image: url(../img/chant.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400vh;
+  width: 100%;
   flex-wrap: wrap;
 }
-.section_2 h1 {
+.section_2 .paragrapheindex {
+  height: 300vh;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.section_2 .paragrapheindex p {
+  font-size: 15px;
+  height: 12.5%;
+  font-family: "Rubik Vinyl", cursive;
+  text-shadow: #B3C7D6 10px 120px 100px;
+  border: #B3C7D6 1px solid;
+}
+.section_2 .paragrapheindex img {
+  width: 120px;
+  height: 120px;
+  margin-left: 25%;
+  margin-top: 1%;
+}
+.section_2 .paragrapheindex .biosection2h1 {
+  font-family: "Rubik Vinyl", cursive;
+  color: rgb(244, 166, 11);
+  font-size: 2.7rem;
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 100%;
+}
+.section_2 .paragrapheindex img {
+  width: 120px;
+  height: 120px;
+  margin-left: 30%;
+  margin-top: 12%;
+}
+.section_2 .paragrapheindex h2 {
+  font-family: "Rubik Vinyl", cursive;
+  color: rgb(244, 166, 11);
+  font-size: 2.7rem;
+  margin-left: 5px;
+  margin-top: 50px;
+  width: 100%;
+}
+.section_2 .paragrapheindex p {
+  font-family: "Rubik Vinyl", cursive;
+  color: #fff;
+  font-size: 1rem;
+  margin-left: 5px;
+  margin-top: 50px;
+  width: 100%;
+}
+.section_2 .gridContainerindex1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+@media (min-width: 500px) {
+  .section_2 .gridContainerindex1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 10%;
+  }
+}
+.section_2 .gridContainerindex1 .videosection2 {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 700px) {
+  .section_2 .gridContainerindex1 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 10%;
+  }
+}
+@media (min-width: 900px) {
+  .section_2 .gridContainerindex1 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 10%;
+  }
+}
+@media (min-width: 1100px) {
+  .section_2 .gridContainerindex1 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 10%;
+  }
+}
+@media (min-width: 1300px) {
+  .section_2 .gridContainerindex1 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 10%;
+  }
+}
+@media (min-width: 1500px) {
+  .section_2 .gridContainerindex1 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 10%;
+  }
+}
+@media (min-width: 1700px) {
+  .section_2 .gridContainerindex1 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 10%;
+  }
+}
+@media (min-width: 1900px) {
+  .section_2 .gridContainerindex1 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.section_2 h3 {
+  font-family: "Rubik Vinyl", cursive;
+  color: rgb(244, 166, 11);
+  font-size: 2.7rem;
+  width: 100%;
+  margin-left: 8%;
+}
+.section_2 .grid-item1 h4 {
+  font-family: "Rubik Vinyl", cursive;
+  color: rgb(244, 166, 11);
+  font-size: 2.7rem;
+  margin-left: 2px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+h1 {
   font-family: "Merriweather", serif;
   color: #fff;
   font-size: 2rem;
@@ -100,17 +238,4 @@
   align-items: center;
   margin: 12.5%;
   margin-top: 5%;
-}
-
-.transparent {
-  padding: 20px;
-  color: #fff;
-  font: 18px Arial, sans-serif;
-}
-.transparent h1 {
-  font-size: 2rem;
-  font-family: "Rubik Vinyl", cursive;
-  color: #fff;
-  margin-left: 12.5%;
-  text-shadow: #B3C7D6 10px 120px 100px;
 }/*# sourceMappingURL=index.css.map */
