@@ -84,11 +84,7 @@
       padding:20px ;
        color:white;
        background-color:rgba(0,0,0,0.5);
-        .pause{
-          .loading-anim {
-            animation-play-state: paused !important;
-          }
-        }  
+         
     
      
     
@@ -103,8 +99,9 @@
       img{
         width: 120px;
         height: 120px;
-        margin-left:25%;
-        margin-top: 1%;
+        margin-left:5%;
+        margin-top: 5%;
+        border: 3px solid #B3C7D6;
       }
 
       // biographie
@@ -112,10 +109,14 @@
     font-family: 'Rubik Vinyl', cursive;
     color:rgb(244, 166, 11);
     font-size: 2.7rem;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 3px;
     // background-color: blueviolet;
     width: 100%;
+    border-top: #B3C7D6 5px solid;
+    border-bottom: #B3C7D6 5px solid;
+    
   }
   img{
     width: 120px;
@@ -126,15 +127,17 @@
   h2{
     font-family: 'Rubik Vinyl', cursive;
     color:rgb(244, 166, 11);
-    font-size: 2.7rem;
+    font-size: 1.7rem;
     margin-left: 5px;
-    margin-top: 50px;
+    margin-top: 100px;
     // background-color: blueviolet;
     width: 100%;
+    
   }
   p{
     font-family: 'Rubik Vinyl', cursive;
     color:#fff;
+    text-align: justify;
     font-size: 1rem;
     margin-left: 5px;
     margin-top: 50px;
@@ -225,14 +228,41 @@ h3{
   
 }
   }
-  
-    h1{
-        
-        font-family: 'Merriweather', serif;
-        color:#fff;
-        font-size: 2rem;
-        margin-left: 12.5%;
+  .grid-item2{
+
+      h4{
+        font-family: 'Rubik Vinyl', cursive;
+        color:rgb(244, 166, 11);
+        font-size: 1.7rem;
+        margin-left: 2px;
+        margin-top: 5px;
+        // background-color: blueviolet;
+        width: 100%;
+      }
+      a{
+        font-family: 'Rubik Vinyl', cursive;
+        color:rgb(244, 166, 11);
+        font-size: 1.7rem;
+        margin-left: 2px;
+        margin-top: 5px;
+        // background-color: blueviolet;
+        width: 100%;
+      }
+      a:hover{
+        color: #fff;
+        font-size: 1.9rem;
+      }
     }
+
+  
+  
+    // h1{
+        
+    //     font-family: 'Merriweather', serif;
+    //     color:#fff;
+    //     font-size: 2rem;
+    //     margin-left: 12.5%;
+    // }
     
 
 .section_3{

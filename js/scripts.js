@@ -7,56 +7,56 @@
 // Scripts
 // 
 console.log('connecté');
-window.addEventListener('DOMContentLoaded', event => {
+// window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
-    var navbarShrink = function () {
-        const navbarCollapsible = document.body.querySelector('#mainNav');
-        if (!navbarCollapsible) {
-            return;
-        }
-        if (window.scrollY === 0) {
-            navbarCollapsible.classList.remove('navbar-shrink')
-        } else {
-            navbarCollapsible.classList.add('navbar-shrink')
-        }
+//     var navbarShrink = function () {
+//         const navbarCollapsible = document.body.querySelector('#mainNav');
+//         if (!navbarCollapsible) {
+//             return;
+//         }
+//         if (window.scrollY === 0) {
+//             navbarCollapsible.classList.remove('navbar-shrink')
+//         } else {
+//             navbarCollapsible.classList.add('navbar-shrink')
+//         }
 
-    };
+//     };
 
-    // Shrink the navbar 
-    navbarShrink();
+//     // Shrink the navbar 
+//     navbarShrink();
 
-    // Shrink the navbar when page is scrolled
-    document.addEventListener('scroll', navbarShrink);
+//     // Shrink the navbar when page is scrolled
+//     document.addEventListener('scroll', navbarShrink);
 
-    // Activate Bootstrap scrollspy on the main nav element
-    const mainNav = document.body.querySelector('#mainNav');
-    if (mainNav) {
-        new bootstrap.ScrollSpy(document.body, {
-            target: '#mainNav',
-            offset: 74,
-        });
-    };
+//     // Activate Bootstrap scrollspy on the main nav element
+//     const mainNav = document.body.querySelector('#mainNav');
+//     if (mainNav) {
+//         new bootstrap.ScrollSpy(document.body, {
+//             target: '#mainNav',
+//             offset: 74,
+//         });
+//     };
 
-    // Collapse responsive navbar when toggler is visible
-    const navbarToggler = document.body.querySelector('.navbar-toggler');
-    const responsiveNavItems = [].slice.call(
-        document.querySelectorAll('#navbarResponsive .nav-link')
-    );
-    responsiveNavItems.map(function (responsiveNavItem) {
-        responsiveNavItem.addEventListener('click', () => {
-            if (window.getComputedStyle(navbarToggler).display !== 'none') {
-                navbarToggler.click();
-            }
-        });
-    });
+//     // Collapse responsive navbar when toggler is visible
+//     const navbarToggler = document.body.querySelector('.navbar-toggler');
+//     const responsiveNavItems = [].slice.call(
+//         document.querySelectorAll('#navbarResponsive .nav-link')
+//     );
+//     responsiveNavItems.map(function (responsiveNavItem) {
+//         responsiveNavItem.addEventListener('click', () => {
+//             if (window.getComputedStyle(navbarToggler).display !== 'none') {
+//                 navbarToggler.click();
+//             }
+//         });
+//     });
 
-    // Activate SimpleLightbox plugin for portfolio items
-    new SimpleLightbox({
-        elements: '#portfolio a.portfolio-box'
-    });
+//     // Activate SimpleLightbox plugin for portfolio items
+//     new SimpleLightbox({
+//         elements: '#portfolio a.portfolio-box'
+//     });
 
-});
+// });
 
 
 // Wrap every letter in a span
@@ -80,6 +80,5 @@ anime.timeline({loop: true})
     delay: 1000
   });
 
-  window.addEventListener("load", () => {
-    document.body.classList.remove("pause");
-});
+ 
+
