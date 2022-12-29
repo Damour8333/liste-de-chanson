@@ -29,6 +29,8 @@
 
           overflow: hidden;
         }
+
+        // Animation du titre de la page index les jougadous c'est le partage
         span{
           display:block;
           transform: translateY(120px);
@@ -82,7 +84,11 @@
       padding:20px ;
        color:white;
        background-color:rgba(0,0,0,0.5);
-          
+        .pause{
+          .loading-anim {
+            animation-play-state: paused !important;
+          }
+        }  
     
      
     

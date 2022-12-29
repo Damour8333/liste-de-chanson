@@ -79,3 +79,7 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   });
+
+  window.addEventListener("load", () => {
+    document.body.classList.remove("pause");
+});
