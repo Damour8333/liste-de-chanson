@@ -72,12 +72,16 @@
   background-attachment: fixed;
   height: 400vh;
   width:100%;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
    
     // la page qui laisse passé transparence
     .paragrapheindex{
   
-  
+   @media only screen and (min-width: 500px){
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: (3,200px);   
+   }
   
       height: 300vh;
       width: 100%;
@@ -147,10 +151,7 @@
     }
     .gridContainerindex1{
       
-      display: grid;
-      grid-template-columns: 1fr ;
-      grid-template-rows: 1fr ;
-     
+      
       // margin: 12.5%;
       // margin-top: 5%;
       @media (min-width: 500px){

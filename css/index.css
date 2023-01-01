@@ -90,6 +90,13 @@
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
 }
+@media only screen and (min-width: 500px) {
+  .section_2 .paragrapheindex {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 3, 200px;
+  }
+}
 .section_2 .paragrapheindex p {
   font-size: 15px;
   height: 12.5%;
@@ -137,11 +144,6 @@
   margin-left: 5px;
   margin-top: 50px;
   width: 100%;
-}
-.section_2 .gridContainerindex1 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
 }
 @media (min-width: 500px) {
   .section_2 .gridContainerindex1 {
