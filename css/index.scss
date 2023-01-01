@@ -65,34 +65,61 @@
     }
 
 .section_2{
-  background-image: url(../img/chant.jpg);
+  background-image: url(.././img/fetedelamorue.png );
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 400vh;
+  height: 300vh;
   width:100%;
-  flex-wrap: wrap;
+  
    
     // la page qui laisse passé transparence
     .paragrapheindex{
-  
-   @media only screen and (min-width: 500px){
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: (3,200px);   
-   }
-  
+     
+      // display: flex;
+      // justify-content: center;
+      // flex-direction: column;
+      // align-items: start;
+      // text-align: center;
+      margin: 0;
       height: 300vh;
       width: 100%;
       padding:20px ;
        color:white;
        background-color:rgba(0,0,0,0.5);
-         
+
+.gridContainerindex1{
+  
+  @media  (min-width: 500px){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    gap:15px;
+   
+    img{
+      width: 120px;
+      height: 120px;
+   border: 3px solid #124c79;
+      align-self: stretch;
+      
+    }
+  }
     
-     
+  
+  h1{
+    margin-bottom: 60%;
+  }
+  img{
+    width: 120px;
+    height: 120px;
+    margin-left:5%;
     
-       p{
+   }
+   
+}
+ p{
         font-size: 15px;
         height: 12.5%;
         font-family: 'Rubik Vinyl', cursive;
@@ -106,6 +133,7 @@
         margin-left:5%;
         margin-top: 5%;
         border: 3px solid #B3C7D6;
+        
       }
 
       // biographie
@@ -152,61 +180,22 @@
     .gridContainerindex1{
       
       
-      // margin: 12.5%;
-      // margin-top: 5%;
-      @media (min-width: 500px){
-          grid-template-columns: 1fr ;
-          grid-template-rows: 1fr ;
-          margin: 10%;
-      }
+     
       .videosection2{
         width: 100%;
         height: 100%;
         margin: 0;
         
         padding: 0;
-        // background-color: blueviolet;
-        // iframe{
-        //   width: 100%;
-        //   height: 100%;
-        //   margin: 15px;
-        //   padding: 0;
-        // }
+      
       }
-      @media (min-width: 700px){
-          grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-          grid-template-rows: 1fr 1fr;
-          margin: 10%;
+      @media screen and (min-width: 500px){
+    display: flex;
+   
       }
-      @media (min-width: 900px){
-          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-          grid-template-rows: 1fr 1fr;
-          margin: 10%;
+        
       }
-      @media (min-width: 1100px){
-          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-          grid-template-rows: 1fr 1fr;
-          margin: 10%;
-      }
-      @media (min-width: 1300px){
-          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-          grid-template-rows: 1fr 1fr;
-          margin: 10%;
-      }
-      @media (min-width: 1500px){
-          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-          grid-template-rows: 1fr 1fr;
-          margin: 10%;
-      }
-      @media (min-width: 1700px){
-          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-          grid-template-rows: 1fr 1fr;
-          margin: 10%;
-      }
-      @media (min-width: 1900px){
-          grid-template-columns: 1fr 1fr
-  }
-}
+    }
 h3{
   font-family: 'Rubik Vinyl', cursive;
   color:rgb(244, 166, 11);
@@ -217,6 +206,10 @@ h3{
 }
 // féte de la morue
 .grid-item1{
+  h3{
+    margin-left: -7%;
+    font-size: 2rem;
+  }
   h4{
     font-family: 'Rubik Vinyl', cursive;
     color:rgb(244, 166, 11);
@@ -228,7 +221,7 @@ h3{
   }
   
 }
-  }
+  
   .grid-item2{
 
       h4{
@@ -254,17 +247,6 @@ h3{
         font-size: 1.9rem;
       }
     }
-
-  
-  
-    // h1{
-        
-    //     font-family: 'Merriweather', serif;
-    //     color:#fff;
-    //     font-size: 2rem;
-    //     margin-left: 12.5%;
-    // }
-    
 
 .section_3{
     background-color: #B3C7D6;
