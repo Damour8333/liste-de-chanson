@@ -77,11 +77,6 @@
     // la page qui laisse passé transparence
     .paragrapheindex{
      
-      // display: flex;
-      // justify-content: center;
-      // flex-direction: column;
-      // align-items: start;
-      // text-align: center;
       margin: 0;
       height: 300vh;
       width: 100%;
@@ -206,21 +201,65 @@ h3{
 }
 // féte de la morue
 .grid-item1{
-  h3{
-    margin-left: -7%;
-    font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+  gap: 10px;
+  @media  (min-width: 500px){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  align-items:center ;
+    gap:60px;
+    flex-wrap: wrap;
+    
+   
+    .accordeonsection2{
+      width: 220px;
+      height: 220px;
+   align-self:baseline;
+      flex-grow: 1;
+      
+    }
   }
-  h4{
-    font-family: 'Rubik Vinyl', cursive;
-    color:rgb(244, 166, 11);
-    font-size: 2.7rem;
-    margin-left: 2px;
-    margin-top: 5px;
-    // background-color: blueviolet;
-    width: 100%;
+    
   }
   
-}
+  
+   
+    img{
+      width: 120px;
+      height: 120px;
+   
+      
+      
+    }
+    
+    
+     
+     
+      
+    
+   
+  
+    
+  
+  // h3{
+  //   margin-left: -7%;
+  //   font-size: 2rem;
+  // }
+  // h4{
+  //   font-family: 'Rubik Vinyl', cursive;
+  //   color:rgb(244, 166, 11);
+  //   font-size: 2.7rem;
+  //   margin-left: 2px;
+  //   margin-top: 5px;
+  //   // background-color: blueviolet;
+  //   width: 100%;
+  // }
+  
+
   
   .grid-item2{
 
