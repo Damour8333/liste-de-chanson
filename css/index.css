@@ -79,12 +79,12 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh;
+  height: 150vh;
   width: 100%;
 }
 .section_2 .paragrapheindex {
   margin: 0;
-  height: 100vh;
+  height: 150vh;
   width: 100%;
   padding: 20px;
   color: white;
@@ -98,20 +98,9 @@
     align-items: baseline;
     gap: 15px;
   }
-  .section_2 .paragrapheindex .gridContainerindex1 img {
-    width: 120px;
-    height: 120px;
-    border: 3px solid #124c79;
-    align-self: stretch;
-  }
 }
 .section_2 .paragrapheindex .gridContainerindex1 h1 {
   margin-bottom: 60%;
-}
-.section_2 .paragrapheindex .gridContainerindex1 img {
-  width: 120px;
-  height: 120px;
-  margin-left: 5%;
 }
 .section_2 .paragrapheindex p {
   font-size: 15px;
